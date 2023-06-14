@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <title>X pizza</title>
+    <link rel="icon" type="image/png" href="../images/icon.png">
+</head>
+
+<body>
+    <header class="header-top">
+        <!--Logo+NavBar-->
+        <a href="../index.html" class="header-logo">
+            <img src="../images/logo.png" alt="Logo del Restaurant">
+        </a>
+
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="menuypedidos.html#menu">Carta</a>
+            <a href="menuypedidos.html#pedido">Pedir</a>
+            <a href="../index.html#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="contacto">
+
+        <div class="encabezado">
+            <img src="../images/titlebackground.png" class="imagen-encabezado">
+            <h2 class="titulo-encabezado">CONTACTENOS</h2>
+        </div>
+
+        <p>
+            Puedo contactarnos mediante las siguiente opciones, o escribirnos completando el siguiente formulario y
+            responderemos a la brevedad.
+            <br>
+            E-MAIL: xpizza@info.com.ar
+            <br>
+            TELEFONO: +54 9 02145875635
+        </p>
+
+        <form id="form-contacto" class="formulario" action="" method="">
+            <h1>CONTACTO</h1>
+
+            <div class="cajaylabel">
+                <label for="nombre">Nombre:</label>
+                <input id="nombreC" type="text" class="caja" name="nombre">
+            </div>
+
+            <div class="cajaylabel">
+                <label for="telefono">Teléfono:</label>
+                <input id="telefonoC" type="tel" class="caja" name="telefono">
+            </div>
+
+            <div class="cajaylabel">
+                <label for="email">Email:</label>
+                <input id="emailC" type="email" class="caja" name="email">
+            </div>
+
+            <div>
+                <textarea id="textoC" class="cuadro-texto" name="textoC"></textarea>
+            </div>
+
+            <input class="boton-formulario" type="button" value="Enviar" onclick="mensajeEnviado()">
+        </form>
+
+    </section>
+
+    <footer>
+
+        <a href="#contacto" class="contacto-link">Contactenos</a>
+        <ul class="redes-sociales">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img
+                        src="../images/facebook.png" alt="Facebook"></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img
+                        src="../images/instagram.png" alt="Instagram"></a>
+            </li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="../images/whatsapp.png"
+                        alt="Whatsapp"></a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+    <script src="../scripts/script.js"></script>
+
+</body>
+
+</html>
